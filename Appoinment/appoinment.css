@@ -1,0 +1,51 @@
+.appoinment-title h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+}
+.appoinment{
+    width: 50%;
+    margin: auto;
+}
+.appoinment h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #C1965F;
+    padding: 15px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.appoinment-input{
+    width: 30%;
+    border: 1px solid #ced4da;
+    padding: 4px;
+}
+.form-control:focus  {
+    border-color: #C1965F !important;
+    outline:none!important;
+    box-shadow: none!important;
+}
+.form-control {
+    color: black !important;
+}
+.appoinment-btn{
+    background-color:#C1965F;
+    color:white;
+   border: 0;
+}
+@media screen and (max-width:991px){
+    .appoinment{
+        width: 70%;
+    }
+}
+@media screen and (max-width:767px){
+    .appoinment{
+        width: 95%;
+    } 
+    .appoinment-input{
+        width: 100%;
+    }
+}
