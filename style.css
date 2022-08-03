@@ -2,6 +2,7 @@
 .logo {
   width: 85px;
 }
+
 .hero-img img {
   width: 30%;
   margin-top: 90px;
@@ -74,12 +75,21 @@
   color:#C1965F;
 }
 /* <!-- -------------hero-section for mobile---------- --> */
+.btn-close {
+  background-image: url('./img/icon.png');
+  opacity:12;
+  z-index: 100;
+  margin-left: 90%;
+}
+.offcanvas-start {
+  width: 320px;
+}
 .logo-mobile {
-  width: 7%;
+  width: 15%;
 }
 .mobile-brand {
-  width: 20%;
-  margin-left: 3%;
+  width: 57%;
+ margin-left: -124%;
 }
 .mobile-menu button {
   background-color: transparent;
