@@ -2,9 +2,10 @@
     color: #fff;
     font-size: 30px;
     font-weight: 900;
+    text-transform: capitalize;
 }
 .appoinment{
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 .appoinment h2{

@@ -12,21 +12,21 @@
     <!-- --------font-awsome-------- -->
     <script src="https://kit.fontawesome.com/fceb99dda2.js" crossorigin="anonymous"></script>
     <!-- -----------style.css---------- -->
-    <link rel="stylesheet" href="./../style.css">
-    <link rel="stylesheet" href="appoinment.css">
+    <link rel="stylesheet" href="../style.css">
+
 </head>
 
 <body>
     <!-- ------------hero-section desktop---------- -->
-    <section  class="hero-section d-none d-lg-block sticky-top">
+    <section  class="hero-section d-none d-lg-block pt-0 sticky-top">
         <!-- ------------header-area--------------- -->
-        <header id="headers-padding " class="pt-2 bg-black px-5">
+        <header id="headers-padding " class=" bg-black px-5">
             <nav class="navbar navbar-expand-lg navbar-black ">
                 <div class="container-fluid ">
-                    <div class="d-flex">
-                        <img class="logo-mobile " src="../img/brand-logo-ccbb58473b89f43e783852c2909f6139.svg" alt="">
-                        <img class="mobile-brand " src="./../img/brand-name-f5645262ce524f347dd584055169a955.svg" alt="">
-                    </div>
+                        <div class="d-flex">
+                            <img class="logo-mobile " src="../img/brand-logo-ccbb58473b89f43e783852c2909f6139.svg" alt="">
+                            <img class="mobile-brand " src="./../img/brand-name-f5645262ce524f347dd584055169a955.svg" alt="">
+                        </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -82,8 +82,8 @@
     <!-- -------------hero-title----------- -->
     <div class="d-none d-lg-block pt-4  bg-black">
         <div class="container-fluid bg-black pt-4 px-5">
-            <div class="appoinment-title pb-3">
-                <h3>Appointment</h3>
+            <div class="contact-title pb-3">
+                <h3>Contact us</h3>
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex">
                 <img class="logo-mobile " src="../img/brand-logo-ccbb58473b89f43e783852c2909f6139.svg" alt="">
-                <img class="mobile-brand " src="../img/brand-name-f5645262ce524f347dd584055169a955.svg" alt="">
+                <img class="mobile-brand " src="./../img/brand-name-f5645262ce524f347dd584055169a955.svg" alt="">
             </div>
             <div class="mobile-menu">
                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
@@ -159,61 +159,115 @@
         </div>
         </div>
     </section>
-
-    <!-- -------------form--------------- -->
-    <div class="container appoinment my-4">
-        <h2>get appoinment</h2>
-        <form action="" class='shadow p-3  bg-light rounded p-2' style="margin-top: -10px;">
-            <!-- ----name------------ -->
-            <div class="mb-3 mt-3">
-                <label for="uname" class="form-label">Name *</label>
-                <input type="text" class="form-control" id="uname" placeholder="Enter Name" name="uname" required>
+    <!-- -----------------adaress--------------- -->
+    <section class="address-section mt-4">
+        <div class="container">
+            <div class="row align-items-start justify-content-center gy-5 gx-4 mb-5">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Office Address</h3>
+                    <p>Suite A-4,</p>
+                    <p>House No. 95</p>
+                    <p>Road No. 9/A, Dhanmondi</p>
+                    <p>Dhaka-1209, Bangladesh</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Supreme Court Address</h3>
+                    <p>Room No. 352, Bar Building (Old)</p>
+                    <p>Supreme Court Bar Association</p>
+                    <p>Ramna, Dhaka-1212, Bangladesh</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <i class="fas fa-hourglass-start"></i>
+                    <h3>Office Hours</h3>
+                    <p>4 PM - 9 PM (Saturday to Thursday)</p>
+                    <small>(Friday is the weekend in Bangladesh)</small>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <i class="fas fa-hourglass-start"></i>
+                    <h3>Office Hours</h3>
+                    <p>10 AM - 4 PM (Sunday to Thursday)</p>
+                </div>
             </div>
-            <!-- ----contact----- -->
-            <div class="mb-3">
-                <label for="pwd" class="form-label">Contact No *</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter Contact No" name="pswd" required>
+            <hr>
+        </div>
+    </section>
+    <!-- -------------contact------------- -->
+    <section class="contact-section my-5">
+        <div class="container">
+            <div class="row align-items-start justify-content-center  gy-5 gx-4 mb-4">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <i class="fas fa-address-book"></i>
+                    <h3>Contact No</h3>
+                    <p>(+880) 1765 932323</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@lawlab.com.bd</p>
+                </div>
             </div>
-            <!-- -----------email--------------- -->
-            <div class="mb-3">
-                <label for="email" class="form-label">Email *</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="pswd" required>
+        </div>
+    </section>
+    <!-- ----------------map---------------- -->
+    <div class="container mb-5 mt-3">
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=%209/A,%20Dhanmondi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://2piratebay.org"></a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 100%;
+                    }
+                </style><a href="https://www.embedgooglemap.net">make google map responsive</a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 500px;
+                        width: 100%;
+                    }
+                </style>
             </div>
-            <!-- ----date--------- -->
-            <div class="mb-3">
-                <label for="appoinmnet" class="form-label">Appointment Time *</label><br>
-                <input class="appoinment-input"  type="date" id="birthday" name="appoinmnet" required>
-            </div>
-            <button class="appoinment-btn common-btn mt-3" type="submit">call me</button>
-        </form>
+        </div>
     </div>
-<!-- --------------footer-section---------- -->
-<section class="footer bg-dark container-fluid text-white py-3 px-5 ">
-    <div class="row align-items-center justify-content-center px-3">
-        <div class="col-lg-4 col-12 text-center text-lg-start">
-            <div class="footer-link">
-                <a href="#">Contact Us</a>
-                <a href="#">Policy</a>
-                <a href="#">Terms and Conditions</a>
+    <!-- --------------footer-section---------- -->
+    <section class="footer bg-dark container-fluid text-white py-3 px-5 ">
+        <div class="row align-items-center justify-content-center px-3">
+            <div class="col-lg-4 col-12 text-center text-lg-start">
+                <div class="footer-link">
+                    <a href="#">Contact Us</a>
+                    <a href="#">Policy</a>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="d-flex justify-content-center ">
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube "></i>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="d-flex justify-content-center justify-content-lg-end">
+                    <div class="pr-5">
+                        <p class="pr-5">© Law Lab</p>
+                    </div>
+                    <div>
+                        <p>Developed by: <a href="#"> Corpovisuals</a></p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-lg-4 col-12">
-            <div class="d-flex justify-content-center ">
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-youtube "></i>
-            </div>
-        </div>
-        <div class="col-lg-4 col-12">
-            <div class="d-flex justify-content-center justify-content-lg-end">
-                <div class="pr-5"><p class="pr-5">© Law Lab</p></div>
-                <div><p>Developed by: <a href="#"> Corpovisuals</a></p></div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
+  
 </body>
 
 </html>

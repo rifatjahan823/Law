@@ -1,0 +1,36 @@
+.contact-title h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.address-section h3{
+    font-size: 25px;
+    color:black;
+    font-weight: 500;
+}
+.address-section P{
+    margin: 0;
+}
+.contact-section h3{
+    font-size: 25px;
+    color:black;
+    font-weight: 500;
+}
+.contact-section P{
+    margin: 0;
+}
+.fas {
+    color: #C1965F !important;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #C1965F;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+   margin: auto;
+}
