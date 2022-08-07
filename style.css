@@ -1,8 +1,18 @@
 /* <!-- ------------hero-section desktop---------- --> */
-.logo {
-  width: 85px;
+.hero-section{
+  background-color: white;
+  border-bottom: 2px solid #c1965f;
 }
-
+.mobile-section {
+  background-color: white;
+  border-bottom: 2px solid #c1965f;
+}
+.hero-title{
+  background-color: rgba(0, 0, 0, 0.847);
+}
+.logo {
+  width: 100px;
+}
 .hero-img img {
   width: 30%;
   margin-top: 90px;
@@ -28,7 +38,7 @@
 }
 .dropdown p {
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   font-weight: 700;
   padding: 20px;
   line-height: 1em;
@@ -85,11 +95,11 @@
   width: 320px;
 }
 .logo-mobile {
-  width: 12%;
+  width: 30%;
 }
 .mobile-brand {
-  width: 20%;
- margin-left: -82%;
+  width: 30%;
+ margin-left: -38%;
 }
 .mobile-menu button {
   background-color: transparent;
@@ -317,6 +327,7 @@ span {
   .fa-youtube {
     margin-bottom: 10px;
   }
+ 
 }
 @media screen and (max-width:767px) {
   .book-content img {

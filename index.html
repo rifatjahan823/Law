@@ -29,13 +29,10 @@
     <!-- ------------hero-section desktop---------- -->
     <section id="navbar_top" class="hero-section d-none d-lg-block">
         <!-- ------------header-area--------------- -->
-        <header id="headers-padding " class="pt-5 bg-black  px-5">
-            <nav class="navbar navbar-expand-lg navbar-black ">
+        <header id="headers-padding " class="pt-1 px-5">
+            <nav class="navbar navbar-expand-lg  ">
                 <div class="container-fluid ">
-                    <a href="./index.html"><img id="destop-header" class="logo d-none"
-                        src="img/logo.png" alt=""></a>
-
-                     <div id="fixed-header" class="d-flex align-items-center d-none">
+                     <div id="fixed-header" class="d-flex align-items-center">
                         <a href="./index.html"><img class="logo-mobile " src="img/logo.png" alt=""></a>
                         <a href="./index.html"><img class="mobile-brand" src="img/title.png" alt=""></a>
                     </div>
@@ -92,19 +89,19 @@
         </header>
     </section>
     <!-- -------------hero-title----------- -->
-    <div class="d-none d-lg-block pt-4  bg-black">
-        <div class="container-fluid bg-black pt-4 px-5">
+    <div class="d-none d-lg-block pt-4 hero-title ">
+        <div class="container-fluid pt-4 px-5">
             <div class="hero-img">
                 <img src="img/title.png" alt="">
             </div>
         </div>
     </div>
     <!-- -------------for mobile---------- -->
-    <section class="mobile-section bg-black container-fluid d-block d-lg-none py-2 sticky-top">
+    <section class="mobile-section  container-fluid d-block d-lg-none py-2 sticky-top">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
-                <a href="http://"><img class="logo-mobile " src="img/logo.png" alt=""></a>
-                <a href="http://"><img class="mobile-brand" src="img/title.png" alt=""></a>
+                <a href="./index.html"><img class="logo-mobile " src="img/logo.png" alt=""></a>
+                <a href="./index.html"><img class="mobile-brand" src="img/title.png" alt=""></a>
             </div>
             <div class="mobile-menu">
                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
@@ -174,7 +171,7 @@
         </div>
     </section>
     <!-- -------------hero-bottom-bg----------- -->
-    <div class="bg-black py-5 d-block d-lg-none">
+    <div class="bg-dark py-5 d-block d-lg-none">
 
     </div>
     <!-- ---content-section------------ -->
@@ -353,17 +350,16 @@
             window.addEventListener('scroll', function () {
                 if (window.scrollY > 300) {
                     document.getElementById('navbar_top').classList.add('fixed-top');
-                    document.getElementById('fixed-header').classList.remove('d-none');
-                    document.getElementById('destop-header').classList.add('d-none');
-                    document.getElementById('headers-padding ').classList.remove('pt-5');
+                  
+                   
+                    document.getElementById('headers-padding ').classList.remove('pt-1');
                     // add padding top to show content behind navbar
                     navbar_height = document.querySelector('.navbar').offsetHeight;
                     document.body.style.paddingTop = navbar_height + 'px';
                 } else {
                     document.getElementById('navbar_top').classList.remove('fixed-top');
-                    document.getElementById('fixed-header').classList.add('d-none');
-                    document.getElementById('headers-padding ').classList.add('pt-5');
-                    document.getElementById('destop-header').classList.remove('d-none');
+                
+                    document.getElementById('headers-padding ').classList.add('pt-1');
                     // remove padding top from body
                     document.body.style.paddingTop = '0';
                 }
