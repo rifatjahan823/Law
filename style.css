@@ -8,7 +8,7 @@
   border-bottom: 2px solid #c1965f;
 }
 .hero-title{
-  background-color: rgba(0, 0, 0, 0.847);
+  background-color: black;
 }
 .logo {
   width: 100px;
@@ -49,7 +49,7 @@
 }
 .nav-li a {
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   font-weight: 700;
   padding: 10px;
   text-decoration: none;
@@ -99,7 +99,7 @@
 }
 .mobile-brand {
   width: 30%;
- margin-left: -38%;
+ margin-left: -37%;
 }
 .mobile-menu button {
   background-color: transparent;
