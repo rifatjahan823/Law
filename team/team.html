@@ -12,20 +12,21 @@
     <!-- --------font-awsome-------- -->
     <script src="https://kit.fontawesome.com/fceb99dda2.js" crossorigin="anonymous"></script>
     <!-- -----------style.css---------- -->
-    <link rel="stylesheet" href="./../style.css">
-    <link rel="stylesheet" href="appoinment.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="team.css">
 </head>
 
 <body>
+
     <!-- ------------hero-section desktop---------- -->
-    <section  class="hero-section d-none d-lg-block sticky-top">
+    <section class="hero-section d-none d-lg-block pt-0 sticky-top">
         <!-- ------------header-area--------------- -->
-        <header id="headers-padding " class="pt-2  px-5">
+        <header id="headers-padding " class="  px-5">
             <nav class="navbar navbar-expand-lg  ">
                 <div class="container-fluid ">
                     <div class="d-flex align-items-center">
-                       <a href="../index.html"> <img class="logo-mobile " src="../img/logo.png" alt=""></a>
-                       <a href="../index.html"> <img class="mobile-brand " src="./../img/title.png" alt=""></a>
+                        <a href="../index.html"><img class="logo-mobile " src="../img/logo.png" alt=""></a>
+                        <a href="../index.html"><img class="mobile-brand " src="./../img/title.png" alt=""></a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +38,7 @@
                                 <p>we</p>
                                 <div class="dropdown-content text-dark">
                                     <li><a class="" href="#">About Us</a></li>
-                                    <li><a class="" href="../team/team.html">Team</a></li>
+                                    <li><a class="" href="./team.html">Team</a></li>
                                 </div>
                             </div>
                             <div class="dropdown text-white ">
@@ -80,19 +81,19 @@
         </header>
     </section>
     <!-- -------------hero-title----------- -->
-    <div class="d-none d-lg-block  hero-title pt-4  bg-black">
-        <div class="container-fluid  pt-4 px-5">
-            <div class="appoinment-title pb-3">
-                <h3>Appointment</h3>
+    <div class="d-none d-lg-block hero-title pt-4 ">
+        <div class="container-fluid pt-4 px-5">
+            <div class="team-title pb-3">
+                <h3>Team</h3>
             </div>
         </div>
     </div>
     <!-- -------------for mobile---------- -->
-    <section class="mobile-section container-fluid d-block d-lg-none py-2 sticky-top">
+    <section class="mobile-section  container-fluid d-block d-lg-none py-2 sticky-top">
         <div class="d-flex justify-content-between align-items-center">
-            <div class="d-flex">
-               <a href="../index.html"> <img class="logo-mobile " src="../img/logo.png" alt=""></a>
-                <a href="../index.html"><img class="mobile-brand " src="../img/title.png" alt=""></a>
+            <div class="d-flex align-items-center">
+                <a href="../index.html"> <img class="logo-mobile " src="../img/logo.png" alt=""></a>
+                <a href="../index.html"> <img class="mobile-brand " src="./../img/title.png" alt=""></a>
             </div>
             <div class="mobile-menu">
                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
@@ -119,7 +120,7 @@
                                 <p>we</p>
                                 <div class="bottom-menu-link">
                                     <li class="my-3"><a href="#">about us</a></li>
-                                    <li><a href="../team/team.html">team</a></li>
+                                    <li><a href="./team.html">team</a></li>
                                 </div>
                             </div>
                             <!-- -----------Services----------- -->
@@ -163,58 +164,106 @@
         </div>
         </div>
     </section>
-
-    <!-- -------------form--------------- -->
-    <div class="container appoinment my-4">
-        <h2>get appoinment</h2>
-        <form action="" class='shadow p-3  bg-light rounded p-2' style="margin-top: -10px;">
-            <!-- ----name------------ -->
-            <div class="mb-3 mt-3">
-                <label for="uname" class="form-label">Name *</label>
-                <input type="text" class="form-control" id="uname" placeholder="Enter Name" name="uname" required>
+    <!-- ---------==========----------- -->
+    <section class="team-section py-5">
+        <div class="container">
+            <!-- -----=======section-one--- -->
+            <div class="row align-items-end team-one gy-4">
+                <div class="col-md-6 col-12">
+                    <h3>Head of Chambers</h3>
+                    <img class="img-fluid" src="/img/1200-8ed926e3366de96aa75524a86bae9c3c.jpg" alt="">
+                </div>
+                <div class="col-md-6 col-12">
+                    <div style="margin-bottom: 30px;">
+                        <a href="#">Mohammad Shishir Manir</a>
+                    </div>
+                    <div style="margin-bottom: 30px;">
+                        <p>LL.B. (Hons.), LL.M. (D.U.)</p>
+                        <p>Advocate</p>
+                        <p>Supreme Court of Bangladesh</p>
+                    </div>
+                </div>
             </div>
-            <!-- ----contact----- -->
-            <div class="mb-3">
-                <label for="pwd" class="form-label">Contact No *</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter Contact No" name="pswd" required>
+            <!-- -------=======--section-two------ -->
+            <div class="row my-5 py-5">
+                <div class="col-md-3 col-12">
+                    <h3>Senior Associate</h3>
+                    <img class="img-fluid mb-2" src="/img/1200-7aea1fc15d26acdbeb3877269dbd6d98.jpg" alt="">
+                    <a class="team-link" href="#">Mohammad Saddam Hossen</a>
+                </div>
             </div>
-            <!-- -----------email--------------- -->
-            <div class="mb-3">
-                <label for="email" class="form-label">Email *</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="pswd" required>
+            <!-- ------------section-3----------- -->
+            <div class="row gy-4 mb-5 pb-5">
+                <h3 class="m-0">Associate</h3>
+                <div class="col-md-3 col-12">
+                    <div>
+                        <img class="img-fluid mb-2" src="/img/1200-4d22b94669edf82a4c44cb837ff1913b.jpg" alt="">
+                        <a class="team-link" href="#">Md. Mizanul Hoque</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div>
+                        <img class="img-fluid mb-2" src="/img/800-f03f6fa13f86f6bc139cd4a0b7e65656.jpg" alt="">
+                        <a class="team-link" href="#">Md. Mizanul Hoque</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div>
+                        <img class="img-fluid mb-2" src="/img/1200-69e8ec3a5656ef7103106d047cfa6a7d.jpg" alt="">
+                        <a class="team-link" href="#">Md. Mizanul Hoque</a>
+                    </div>
+                </div>
             </div>
-            <!-- ----date--------- -->
-            <div class="mb-3">
-                <label for="appoinmnet" class="form-label">Appointment Time *</label><br>
-                <input class="appoinment-input"  type="datetime-local"  id="apointmentTime" name="apointmentTime" required>
+            <!-- ------------section-4----------- -->
+            <div class="row gy-4">
+                <h3 class="m-0">Research Associate</h3>
+                <div class="col-md-3 col-12">
+                    <div>
+                        <img class="img-fluid mb-2" src="/img/1200-adba1a8b0063627875310e7d5c2f64ee.jpg" alt="">
+                        <a class="team-link" href="#">Md. Mizanul Hoque</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div>
+                        <img class="img-fluid mb-2" src="/img/1200-90a5f6b44eabaf88201d5791ec217fdb.jpg" alt="">
+                        <a class="team-link" href="#">Md. Mizanul Hoque</a>
+                    </div>
+                </div>
             </div>
-            <button class="appoinment-btn common-btn mt-3" type="submit">call me</button>
-        </form>
-    </div>
-<!-- --------------footer-section---------- -->
-<section class="footer bg-dark container-fluid text-white py-3 px-5 ">
-    <div class="row align-items-center justify-content-center px-3">
-        <div class="col-lg-4 col-12 text-center text-lg-start">
-            <div class="footer-link">
-                <a href="#">Contact Us</a>
-                <a href="#">Policy</a>
-                <a href="#">Terms and Conditions</a>
+            <!-- -------=======--section-5------ -->
+            <div class="row my-5 py-5">
+                <div class="col-md-3 col-12">
+                    <h3>Clerk</h3>
+                    <img class="img-fluid mb-2" src="/img/1200-7aea1fc15d26acdbeb3877269dbd6d98.jpg" alt="">
+                    <a class="team-link" href="#">Md. Nayon Ali </a>
+                </div>
             </div>
         </div>
-        <div class="col-lg-4 col-12">
-            <div class="d-flex justify-content-center ">
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-youtube "></i>
+    </section>
+
+    <!-- --------------footer-section---------- -->
+    <section class="footer bg-dark container-fluid text-white py-3 px-5 ">
+        <div class="row align-items-center justify-content-center px-3">
+            <div class="col-lg-4 col-12 text-center text-lg-start">
+                <div class="footer-link">
+                    <a href="#">Contact Us</a>
+                    <a href="#">Policy</a>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="d-flex justify-content-center ">
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube "></i>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 text-center text-lg-end">
+                <p class="pr-5">© Law Lab Developed by: <a href="#"> Corpovisuals</a></p>
             </div>
         </div>
-        <div class="col-lg-4 col-12 text-center text-lg-end">
-            <p class="pr-5">© Law Lab  Developed by: <a href="#"> Corpovisuals</a></p>
-           </div>
-    </div>
-</section>
-
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,44 @@
+.stories-title h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.story-details-content p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+}
+.story-title h2 {
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.story-title p{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.story-icon{
+    font-size: 18px;
+    color: black;
+    margin: 0px !important;
+    padding: 0px 8px!important;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.story-icon:hover{
+    color: #e8a412;
+}
+.story-divider{
+    width: 150px;
+    margin-bottom: 20px;
+    opacity: 1;
+    border-top: 1px solid #e8a412;
+    display:block ;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
